@@ -2,6 +2,8 @@ function validate() {
   var num_1 = document.getElementById("first_num").value,
     num_2 = document.getElementById("second_num").value;
 
+  console.log(num_1, num_2);
+
   if ((num_1 == null || num_1 == "") && (num_2 == null || num_2 == "")) {
     alert("Both Field is empty");
   } else if (num_1 == null || num_1 == "") {
