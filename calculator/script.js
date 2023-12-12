@@ -18,7 +18,7 @@ function add(num_1, num_2) {
   num_1 = parseFloat(num_1);
   num_2 = parseFloat(num_2);
   res = num_1 + num_2;
-  document.getElementById("answer").innerHTML = res;
+  document.getElementById("answer").innerHTML = "Sum = " + res;
 }
 
 function substract(num_1, num_2) {
@@ -27,7 +27,7 @@ function substract(num_1, num_2) {
   num_1 = parseFloat(num_1);
   num_2 = parseFloat(num_2);
   res = num_1 - num_2;
-  document.getElementById("answer").innerHTML = res;
+  document.getElementById("answer").innerHTML = "Difference = " + res;
 }
 
 function multiply(num_1, num_2) {
@@ -36,7 +36,7 @@ function multiply(num_1, num_2) {
   num_1 = parseFloat(num_1);
   num_2 = parseFloat(num_2);
   res = num_1 * num_2;
-  document.getElementById("answer").innerHTML = res;
+  document.getElementById("answer").innerHTML = "Product = " + res;
 }
 
 function divide(num_1, num_2) {
@@ -45,5 +45,5 @@ function divide(num_1, num_2) {
   num_1 = parseFloat(num_1);
   num_2 = parseFloat(num_2);
   res = num_1 / num_2;
-  document.getElementById("answer").innerHTML = res;
+  document.getElementById("answer").innerHTML = "Division = " + res;
 }
