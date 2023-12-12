@@ -76,24 +76,59 @@
 // let newUser = new User();
 // newUser.validate();
 
-function display() {
-  var userName = document.getElementById("name").value;
+// function display() {
+//   var userName = document.getElementById("name").value;
 
-  let user = new User(userName);
+//   let user = new User(userName);
 
-  user.validate();
+//   user.validate();
+// }
+
+// class User {
+//   constructor(username) {
+//     this.username = username;
+//   }
+
+//   validate() {
+//     if (this.username == null || this.username == "") {
+//       document.write("Field is Empty");
+//     } else {
+//       document.write("Login Details Received from " + this.username);
+//     }
+//   }
+// }
+
+// var Box = document.querySelector(".box"),
+//   Show = document.querySelector(".show"),
+//   Hide = document.querySelector(".hide");
+
+
+  // Hide.addEventListener("click", function(){
+  //   Box.classList.add("hide-box")
+  // })
+
+  // Show.addEventListener("click", function(){
+  //   Box.classList.remove("hide-box")
+  // })
+
+
+  
+var Box = document.querySelector(".box"),
+toggleButton = document.querySelector(".show");
+
+
+toggleButton.addEventListener("click", function(){
+
+  Box.classList.toggle("hide-box");
+
+})
+
+
+function makeItGreen(){
+  Box.classList.add("green");
 }
 
-class User {
-  constructor(username) {
-    this.username = username;
-  }
-
-  validate() {
-    if (this.username == null || this.username == "") {
-      document.write("Field is Empty");
-    } else {
-      document.write("Login Details Received from " + this.username);
-    }
-  }
+function removeClass(){
+  Box.classList.remove("green");
 }
+

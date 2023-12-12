@@ -1,0 +1,16 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #125748;
+
+    margin-bottom: 2rem;
+}
+
+
+.hide-box{
+    display: none;
+}
+
+.green{
+    background-color: green;
+}
