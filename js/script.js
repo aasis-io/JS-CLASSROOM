@@ -8,11 +8,37 @@
 //   document.write("<p>" + prop + "=" + person[prop] + "</p>");
 // }
 
-// let greet = "Hello World!";
+// var myArray = ["John", "nash", "64"];
+
+// let greet = "Hello World!"; 
 
 // for (let character of greet) {
 //   document.write(character + "<br>"); //H,e,l,l,o,,W,o,r,l,d!
 // }
+
+// var Name = "sachin";
+
+// for (let character of Name) {
+//   document.write(character + "<br>");
+// }
+
+
+// ----------------------Array Practice------------------- //
+
+// var arr =["sachin","ashish","Dipesh"];
+
+// arr.unshift("surya");
+// arr.shift();
+
+// arr.push("last");
+// arr.pop();
+
+// document.write(arr);
+
+
+
+
+
 
 // // alert("Hello World!");
 
@@ -27,25 +53,30 @@
 
 // document.write(txt);
 
-// // function sum(num1,num2) {
-// //   var total = num1 + num2;
-// //   return(total);
-// // }
+// function sum(num1,num2) {
+//   var total = num1 + num2;
+//   document.write(total);
+// }
 
-// // num1 = parseInt(prompt("Enter the first number:"));
-// // num2 = parseInt(prompt("Enter the second number:"));
+// num1 = parseInt(prompt("Enter the first number:"));
+// num2 = parseInt(prompt("Enter the second number:"));
 
-// // document.write(sum(num1, num2));
+
+
+// document.write(sum(num1, num2));
+// sum(num1,num2);
 
 //Array Examples
 
 // var fruit = ['apple', 'orange', 'banana'];
 // fruit.push('kiwi');
 // fruit.pop("kiwi");
-// fruit.unshift();
+// fruit.unshift("pineapple");
 // document.write(fruit);
 
 // class Person{
+
+
 //   constructor(name){
 //     this.name = name;
 //   }
@@ -54,7 +85,21 @@
 //   }
 // }
 // let person = new Person("John");
+
 // person.getName();
+
+
+// class Ashish{
+
+//   constructor(){
+//     document.write("This is constructor");
+//   }
+
+// }
+
+// let a = new Ashish();
+
+
 
 // class User{
 //     constructor(username, password){
@@ -73,13 +118,15 @@
 //     }
 // }
 
-// let newUser = new User();
-// newUser.validate();
+// // let newUser = new User();
+// // newUser.validate();
 
 // function display() {
 //   var userName = document.getElementById("name").value;
+//   var password = document.getElementById("password").value;
 
-//   let user = new User(userName);
+
+//   let user = new User(userName, password);
 
 //   user.validate();
 // }
@@ -102,7 +149,6 @@
 //   Show = document.querySelector(".show"),
 //   Hide = document.querySelector(".hide");
 
-
   // Hide.addEventListener("click", function(){
   //   Box.classList.add("hide-box")
   // })
@@ -110,25 +156,23 @@
   // Show.addEventListener("click", function(){
   //   Box.classList.remove("hide-box")
   // })
-
-
   
-var Box = document.querySelector(".box"),
-toggleButton = document.querySelector(".show");
+// var Box = document.querySelector(".box"),
+// toggleButton = document.querySelector(".show");
 
 
-toggleButton.addEventListener("click", function(){
+// toggleButton.addEventListener("click", function(){
 
-  Box.classList.toggle("hide-box");
+//   Box.classList.toggle("hide-box");
 
-})
+// })
 
 
-function makeItGreen(){
-  Box.classList.add("green");
-}
+// function makeItGreen(){
+//   Box.classList.add("green");
+// }
 
-function removeClass(){
-  Box.classList.remove("green");
-}
+// function removeClass(){
+//   Box.classList.remove("green");
+// }
 

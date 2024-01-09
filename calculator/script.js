@@ -29,7 +29,8 @@ function substract(num_1, num_2) {
   num_1 = parseFloat(num_1);
   num_2 = parseFloat(num_2);
   res = num_1 - num_2;
-  document.getElementById("answer").innerHTML = "Difference = " + res;
+  // document.getElementById("answer").innerHTML = "Difference = " + res;
+  document.write("Difference :" +res);
 }
 
 function multiply(num_1, num_2) {

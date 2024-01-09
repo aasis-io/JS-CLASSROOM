@@ -12,11 +12,17 @@
 
 
     <script type="text/javascript">
-        // document.cookie = "Username = John; expires = Sun, " + "18 Dec 2023 12:00:00 UTC; path=/";
-
+         document.cookie = "Username = John; expires = wed, 10 jan 2024 12:00:00 UTC; path=/";
         var cook = document.cookie;
         document.write(cook);
 
+
+        sessionStorage.setItem("Name","Sachin");
+
+
+
+        let name = sessionStorage.getItem("Name");
+        document.write(name);
     </script>
 
 
