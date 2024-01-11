@@ -176,3 +176,31 @@
 //   Box.classList.remove("green");
 // }
 
+// var person = {"firstname": "John", "lastname": "nash", "age": "64"};
+// for(var detail in person) {
+// document.write("<p>" + detail + " = " + person[detail] + "</p>");
+// }
+
+// var fruits = ["Apple", "Banana", "Mango", "Orange", "Papaya"];
+// for (var i = 0; i < fruits.length; i++) {
+// document.write(fruits[i] + "<br>");
+// }
+// for (var fruit of fruits) {
+// document.write(fruit + "<br>");
+// }
+// for (var i in fruits) {
+// document.write(fruits[i] + "<br>");
+// }
+
+
+// var colors = ["Red", "Green", "Blue"];
+// colors.push("Pink", "Voilet");
+// colors.unshift("Yellow", "Grey");
+
+// document.write(colors);
+
+// var str = "This is a sample text in a line one";
+// var splitted = str.split(" ", 3);
+
+// document.write(splitted)
+
